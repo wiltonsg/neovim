@@ -1,7 +1,6 @@
 # Neovim IDE
 
-Estas configurações são baseadas no repositório: 
-https://github.com/LunarVim/Neovim-from-scratch
+Repository based settings: https://github.com/LunarVim/Neovim-from-scratch
 
 ### Plugins:
 
@@ -41,7 +40,7 @@ https://github.com/LunarVim/Neovim-from-scratch
     34. lewis6991/gitsigns.nvim
     35. norcalli/nvim-colorizer.lua
 
-Install:
+### Install:
 ```
 git clone https://github.com/wiltonsg/neovim.git ~/.config/nvim
 nvim +PackerSync
