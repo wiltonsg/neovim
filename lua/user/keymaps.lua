@@ -68,5 +68,5 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Minhas configurações
--- keymap("n", "<C-s>", ":w<cs>", opts)
--- keymap("n", "<C-q>", ":q<cs>", opts)
+-- keymap("n", "<C-s>", ":w<CR>", opts)
+-- keymap("n", "<C-q>", ":q<CR>", opts)
