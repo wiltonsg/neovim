@@ -1,8 +1,22 @@
 # Neovim IDE
 
+NeoVim from scratch
+
 Repository based settings: https://github.com/LunarVim/Neovim-from-scratch
 
-### Plugins:
+### Depends on:
+
+1. Neovim: https://neovim.io/
+2. Node.js: https://nodejs.org/en/
+
+### Install:
+```
+git clone https://github.com/wiltonsg/neovim.git ~/.config/nvim
+```
+```
+nvim +PackerSync
+```
+### Plugins included:
 
     1. wbthomason/packer.nvim
     2. nvim-lua/popup.nvim
@@ -39,9 +53,3 @@ Repository based settings: https://github.com/LunarVim/Neovim-from-scratch
     33. JoosepAlviste/nvim-ts-context-commentstring
     34. lewis6991/gitsigns.nvim
     35. norcalli/nvim-colorizer.lua
-
-### Install:
-```
-git clone https://github.com/wiltonsg/neovim.git ~/.config/nvim
-nvim +PackerSync
-```
