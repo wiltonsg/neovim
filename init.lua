@@ -20,6 +20,7 @@ require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
 require "user.colorizer"
+require "user.autosave"
 
 -- Minhas configurações
 vim.o.clipboard = "unnamedplus"

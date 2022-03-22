@@ -53,3 +53,4 @@ nvim +PackerSync
     33. JoosepAlviste/nvim-ts-context-commentstring
     34. lewis6991/gitsigns.nvim
     35. norcalli/nvim-colorizer.lua
+    36. Pocco81/AutoSave.nvim
