@@ -8,6 +8,9 @@ Repository based settings: https://github.com/LunarVim/Neovim-from-scratch
 
 1. Neovim: https://neovim.io/
 2. Node.js: https://nodejs.org/en/
+3. powerline
+4. xsel
+5. fonts-inconsolata
 
 ### Install:
 ```
