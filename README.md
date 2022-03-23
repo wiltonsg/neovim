@@ -60,10 +60,10 @@ nvim +PackerSync
 
 ### Screenshot
 
-![Texto alternativo](/home/restinga/GitHub/nvim/imagens/Captura1.png)
+![Texto alternativo](https://github.com/wiltonsg/neovim/blob/main/imagens/Captura1.png)
 
-![Texto alternativo](/home/restinga/GitHub/nvim/imagens/Captura2.png)
+![Texto alternativo](https://github.com/wiltonsg/neovim/blob/main/imagens/Captura2.png)
 
-![Texto alternativo](/home/restinga/GitHub/nvim/imagens/Captura3.png)
+![Texto alternativo](https://github.com/wiltonsg/neovim/blob/main/imagens/Captura3.png)
 
-![Texto alternativo](/home/restinga/GitHub/nvim/imagens/Captura4.png)
+![Texto alternativo](https://github.com/wiltonsg/neovim/blob/main/imagens/Captura4.png)
