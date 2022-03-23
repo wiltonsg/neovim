@@ -97,6 +97,9 @@ return packer.startup(function(use)
   -- Color highlighting
   use "norcalli/nvim-colorizer.lua"
 
+  -- AutoSave.nvim
+  use "Pocco81/AutoSave.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
