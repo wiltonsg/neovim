@@ -102,6 +102,7 @@ keymap("n", "<C-s>", "<cmd>write<cr>", opts)
 keymap("n", "<C-v>", "<cmd>vsplit<cr>", opts)
 keymap("n", "<C-z>", "<cmd>ZenMode<cr>", opts)
 keymap("n", "<C-n>", ":e ~/Notes/<cr>", opts)
+keymap("n", "<C-w>", "<cmd>ASToggle<cr>", opts)
 
 keymap("n", "-", ":lua require'lir.float'.toggle()<cr>", opts)
 -- keymap("n", "<C-\\>", "<cmd>vsplit<cr>", opts)
