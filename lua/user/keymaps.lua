@@ -31,17 +31,16 @@ keymap("n", "<C-Down>", ":resize +2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
--- Naviagate buffers
+-- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
-keymap("n", "<S-k>", ":bdelete<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Insert --
--- Press jk fast to enter
+-- Press jk fast to exit insert mode 
 keymap("i", "jk", "<ESC>", opts)
 
 -- Visual --
@@ -99,10 +98,10 @@ keymap(
 keymap("n", "<C-t>", "<cmd>lua vim.lsp.buf.document_symbol()<cr>", opts)
 keymap("n", "<C-q>", "<cmd>exit<cr>", opts)
 keymap("n", "<C-s>", "<cmd>write<cr>", opts)
-keymap("n", "<C-v>", "<cmd>vsplit<cr>", opts)
+-- keymap("n", "<C-v>", "<cmd>vsplit<cr>", opts)
 keymap("n", "<C-z>", "<cmd>ZenMode<cr>", opts)
 keymap("n", "<C-n>", ":e ~/Notes/<cr>", opts)
-keymap("n", "<C-w>", "<cmd>ASToggle<cr>", opts)
+keymap("n", "<C-a>", "<cmd>ASToggle<cr>", opts)
 
 keymap("n", "-", ":lua require'lir.float'.toggle()<cr>", opts)
 -- keymap("n", "<C-\\>", "<cmd>vsplit<cr>", opts)
